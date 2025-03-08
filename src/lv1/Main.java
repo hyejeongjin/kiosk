@@ -41,13 +41,5 @@ public class Main {
                     System.out.println("잘못된 번호를 입력하셨습니다!");
             }
         }
-
-
-
-
-
-
-
-
     }
 }
