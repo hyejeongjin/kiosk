@@ -23,10 +23,8 @@ public class MenuItem {
         return coffee + "   | W " + price + " | " + info;
     }
 
-    //getter, setter
+    //불필요한 getter, setter 삭제
     public String getCoffee() {
         return coffee;
     }
-
-
 }
