@@ -3,9 +3,10 @@ package lv2;
 
 public class MenuItem {
 
-    private String coffee;
-    private int price;
-    private String info;
+    // 불변객체 설정
+    private final String coffee;
+    private final int price;
+    private final String info;
 
     // 생성자
     public MenuItem(String coffee, int price, String info){
