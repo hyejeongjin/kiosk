@@ -15,6 +15,7 @@ public class Main {
         menuItems.add(new MenuItem("Caramel Macchiato", 4000, "에스프레소에 캐러멜 소스와 우유를 넣고 우유 거품만 살짝 올린 커피."));
         menuItems.add(new MenuItem("Café Mocha", 4500, "에스프레소에 우유와 초콜릿을 넣고 휘핑크림을 올린 커피."));
 
+        // 선택한 메뉴를 담을 list
         List<String> selectList = new ArrayList<>();
 
         //Scanner
@@ -55,10 +56,10 @@ public class Main {
                     System.out.println("프로그램을 종료합니다.");
                     System.out.println("선택하신 음료는 ");
 
-                    for(int j=0; j<selectList.size(); j++){
-                        for(int k=0; k< menuItems.size(); k++){
-                            if(menuItems.get(k).getCoffee().equals(selectList.get(j))){
-                                System.out.println(menuItems.get(k).toString());
+                    for(String s : selectList){
+                        for (MenuItem menuItem : menuItems) {
+                            if (menuItem.getCoffee().equals(s)) {
+                                System.out.println(menuItem);
                             }
                         }
                     }

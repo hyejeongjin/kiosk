@@ -23,28 +23,9 @@ public class MenuItem {
     }
 
     //getter, setter
-    public void setCoffee(String coffee) {
-        this.coffee = coffee;
-    }
-
-    public void setPrice(int price) {
-        this.price = price;
-    }
-
-    public void setInfo(String info) {
-        this.info = info;
-    }
-
     public String getCoffee() {
         return coffee;
     }
 
-    public int getPrice() {
-        return price;
-    }
-
-    public String getInfo() {
-        return info;
-    }
 
 }
