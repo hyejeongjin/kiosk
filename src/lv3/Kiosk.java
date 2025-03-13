@@ -38,10 +38,9 @@ public class Kiosk {
             System.out.print("메뉴를 선택해주세요(종료 시 0 입력): ");
             int select = 0;
 
-            // 오류나는 부분
-            try{
+            try {
                 select = input.nextInt();
-            }catch(Exception e){
+            } catch(Exception e) {
                 System.out.println("숫자를 입력해주세요!");
                 // 버퍼를 비워서 select에 들어간 값을 비워줘야함.
                 input.nextLine();
