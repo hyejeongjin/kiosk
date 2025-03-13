@@ -33,8 +33,7 @@ public class Kiosk {
                 System.out.println(i + 1 + ". " + menuItems.get(i).toString());
             }
 
-            // 입력 받은 숫자가 올바르다면 인덱스로 활용하여 List에 접근하기
-            // List<Menu>에 인덱스로 접근하면 Menu만 추출할 수 있겠죠?
+
             System.out.print("메뉴를 선택해주세요(종료 시 0 입력): ");
             int select = 0;
 
@@ -73,6 +72,7 @@ public class Kiosk {
                     // 선택된 음료가 있을 경우에만 출력
                     if(!selectList.isEmpty()){
                         System.out.println("선택하신 메뉴는 ");
+                        // 개선할 필요가 있는 코드.
                         for (String s : selectList) {
                             for (MenuItem menuItem : menuItems) {
                                 if (menuItem.getCoffee().equals(s)) {
