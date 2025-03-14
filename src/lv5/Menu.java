@@ -25,7 +25,6 @@ public class Menu {
     //메뉴를 순차적으로 보여주는 함수
     public void showMenuItems(){
         for (int i=0; i<menuItems.size(); i++) {
-            MenuItem menuItem = menuItems.get(i);
             System.out.println( i + 1 + ". " + menuItems.get(i));
         }
     }
