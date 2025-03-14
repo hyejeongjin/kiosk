@@ -49,14 +49,14 @@ public class Kiosk {
                 selectMenuItem(select, cate);
 
             }else if(cate == 2){
-                System.out.println("[ " + menus.get(cate - 1).getCategory() + "]\n");
+                System.out.println("[ " + menus.get(cate - 1).getCategory() + " ]\n");
                 menus.get(cate - 1).showMenuItems();
                 System.out.println();
                 System.out.print("메뉴를 선택해주세요 (0 입력 시 뒤로가기): ");
                 selectMenuItem(select, cate);
 
             }else if(cate == 3){
-                System.out.println("[ " + menus.get(cate - 1).getCategory() + "]\n");
+                System.out.println("[ " + menus.get(cate - 1).getCategory() + " ]\n");
                 menus.get(cate - 1).showMenuItems();
                 System.out.println();
                 System.out.print("메뉴를 선택해주세요 (0 입력 시 뒤로가기): ");
