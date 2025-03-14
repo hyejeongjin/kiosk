@@ -21,11 +21,6 @@ public class Menu {
         return category;
     }
 
-    public List<MenuItem> getMenuItems() {
-        return menuItems;
-    }
-
-
     //메뉴를 순차적으로 보여주는 함수
     public void showMenuItems(){
         for (int i=0; i<menuItems.size(); i++) {
