@@ -13,7 +13,6 @@ public class Kiosk {
         this.menus = menus;
     }
 
-
     Scanner input = new Scanner(System.in);
     // 기능
     public void start() {
