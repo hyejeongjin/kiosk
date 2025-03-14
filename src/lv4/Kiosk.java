@@ -90,6 +90,7 @@ public class Kiosk {
             System.out.println("카테고리 메뉴로 돌아갑니다.");
 
         }else{
+            System.out.print("선택한 메뉴 : ");
             menus.get(cate - 1).pickedItem(select - 1);
         }
     }

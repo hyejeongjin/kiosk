@@ -32,7 +32,7 @@ public class Menu {
 
     public void pickedItem(int select) {
             MenuItem menuItem = menuItems.get(select);
-            System.out.println(menuItem.getItem() + " | " + menuItem.getPrice() + "원 \n");
+            System.out.println(menuItem.getItem() + " | " + menuItem.getPrice() + "원 | " + menuItem.getInfo() + "\n");
     }
 
     }

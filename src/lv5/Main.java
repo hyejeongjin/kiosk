@@ -33,7 +33,6 @@ public class Main {
         menus.add(new Menu("TEA", tea));
         menus.add(new Menu("SMOOTHIE", smoothie));
 
-
         Kiosk kiosk = new Kiosk(menus);
         // 키오스크 시작
         kiosk.start();

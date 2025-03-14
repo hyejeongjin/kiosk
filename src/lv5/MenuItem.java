@@ -31,4 +31,8 @@ public class MenuItem {
     public int getPrice() {
         return price;
     }
+
+    public String getInfo() {
+        return info;
+    }
 }
