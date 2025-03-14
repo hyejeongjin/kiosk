@@ -15,9 +15,8 @@ public class Kiosk {
 
     Scanner input = new Scanner(System.in);
     // 기능
+
     public void start() {
-
-
         // while문 break 용도
         boolean check = true;
 
@@ -74,6 +73,8 @@ public class Kiosk {
 
         }
     }
+
+    // 카테고리 안에 있는 메뉴를 고르는 함수
     public void selectMenuItem(int select, int cate){
         try {
             select = input.nextInt();
