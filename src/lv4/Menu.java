@@ -5,7 +5,6 @@ import java.util.List;
 public class Menu {
 
     // 속성
-//    private final List<String> category = new ArrayList<>();
     private final String category;
     private final List<MenuItem> menuItems;
 
@@ -32,18 +31,17 @@ public class Menu {
         for (int i=0; i<menuItems.size(); i++) {
             MenuItem menuItem = menuItems.get(i);
             System.out.println( i + 1 + ". " + menuItems.get(i));
-            // System.out.println(menuItem.getItem() + menuItem.getPrice() + menuItem.getInfo());
         }
     }
 
-    public void selectItem() {
-        for(int i=0; i<menuItems.size(); i++){
-            MenuItem menuItem = menuItems.get(i);
-            System.out.println(menuItem.getItem() + menuItem.getPrice() + menuItem.getInfo());
-        }
+    public void pickedItem(int select) {
+            MenuItem menuItem = menuItems.get(select);
+            System.out.println(menuItem.getItem() + " | " + menuItem.getPrice() + "원 \n");
+    }
+
     }
 
 
 
 
-}
+
